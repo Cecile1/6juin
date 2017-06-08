@@ -6,14 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title> Self Presentation </title>
   <link rel="stylesheet" type="text/css" href="doc.css">
+  <link rel="stylesheet" href="6Juin/animations.css">
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Dekko|Handlee" rel="stylesheet">
 </head>
 <body>
 
-
-<img class="photo-moi"src="images/profile.jpg" alt="Photo Cécile">
 <header>
-<h2> Cécile </h2>
-<h3> Student at Simplon </h3>
+<div id= "wrapper">
+<div id = "myself">
+<img class="Pulse" "img-circle" src="images/profile.jpg" alt="Photo Cécile">
+</div> <!-- fin du Div Myself -->
+
+<div class= "container">
+<h2 class= "cecile"> Cécile </h2>
+<h3 class= "student"> Student  at  Simplon </h3>
+
+</div> <!-- fin du Div Container -->
+</div> <!-- fin du div wrapper -->
 </header>
 
 <article>
@@ -21,17 +31,18 @@
 <p> I just started a 7-month, intensive program to become a Full Stack Javascript web developer. </p>
 </article>
 
-<div = "socialmedia">
+<div class = "socialmedia">
 <p> Here is a list of my social media profiles: </p>
 <ul>
-  <li> <a href="https://www.linkedin.com/in/cecilemayer" target="_blank"> LinkedIn </a></li>
-  <li><a href="https://medium.com/@Cecile.m/" target="_blank"> Medium </a></li>
-  <li><a href="https://twitter.com/_CecileM_" target="_blank"> Twitter</a></li>
+  <li> <a href="https://www.linkedin.com/in/cecilemayer" class= "links" target="_blank"> LinkedIn </a></li>
+  <li><a href="https://medium.com/@Cecile.m/" class= "links"  target="_blank"> Medium </a></li>
+  <li><a href="https://twitter.com/_CecileM_" class= "links"  target="_blank"> Twitter</a></li>
 </ul>
-</div>
+</div>  <!-- fin du div social media --->
 
 <table>
-   <caption>My Favorite </caption>
+
+   <caption> My Favorite </caption>
 <thead> <!-- En-tête du tableau -->
        <tr>
            <th> Sports </th>
@@ -42,7 +53,7 @@
 <tbody> <!-- Corps du tableau -->
       <tr>
           <td> Skateboarding</td>
-          <td> Breaking Bad </td>
+          <td class="breakingbad"> <img src= "images/breakingbad.png" alt= "breakingbad"> </td>
 
       </tr>
       <tr>
@@ -56,7 +67,7 @@
 
       </tr>
       <tr>
-          <td>Martine</td>
+          <td> Rollerskating </td>
           <td> Orphan Black  </td>
 
       </tr>
@@ -65,9 +76,15 @@
           <td> Touch </td>
       </tr>
   </tbody>
+
 </table>
 
-
+<script>
+	$('.img').click(function() {
+		$(this).addClass("Pulse");
+	});
+</script>
+</script>
 
 </body>
 </html>

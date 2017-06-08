@@ -1,0 +1,93 @@
+body {
+background-color: #ECEBE4;
+color: darkblue;
+line-height: 10px;
+font-family: 'Handlee', cursive ;
+font-size: 20px;
+letter-spacing: 3px;
+}
+
+
+#wrapper {
+display: flex;
+text-align: center;
+flex-direction:column;
+justify-content: center;
+line-height: 10px;
+width: 100%
+margin: 0 auto;
+}
+
+#myself img {
+  justify-content: center;
+
+  border-radius: 50%;
+  width: 250px;
+  box-shadow: 10px 10px 5px #656565;
+
+}
+
+
+
+.container {
+width: 500px;
+margin: 0 auto;
+min-height: 100vh
+display: inline-flex;
+flex-direction: column;
+justify-content: center;
+
+width: 100vh;
+align-items: center;
+margin-top: 40px;
+background-color:
+
+}
+
+.cecile,
+.student {
+font-family: 'Dekko', cursive;
+font-size: 40px;
+}
+
+article {
+
+width: 800px;
+height: 150px;
+text-align-last: center;
+line-height: 40px;
+margin: 0 auto;
+}
+
+li {
+color: #EF4836;
+list-style: none;
+line-height: 30px;
+text-decoration: underline;
+}
+
+a:hover {
+ color: red;
+}
+
+.socialmedia  {
+
+  width: 800px;
+  height: 200px;
+  text-align-last: center;
+  line-height: 40px;
+  margin: 0 auto;
+}
+
+table {
+
+  width: 800px;
+  height: 500px;
+  text-align-last: center;
+  line-height: 40px;
+  margin: 0 auto;
+}
+
+th {
+  text-decoration: underline;
+}
